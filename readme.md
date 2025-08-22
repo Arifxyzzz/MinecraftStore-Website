@@ -1,6 +1,6 @@
 # Minecraft Store Website Template
 
-![Minecraft Store Preview](https://i.imgur.com/bduXzKZ.png)
+![Minecraft Store Preview](https://i.imgur.com/izrB3td.png)
 ![Perfomance Preview](https://i.imgur.com/Yf0Feh4.png)
 
 ## 📋 Tentang Website
