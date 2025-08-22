@@ -1,0 +1,205 @@
+<div class="contact-content">
+    <section id="contact" class="section">
+        <h2 class="section-title fade-in">Dukungan pelanggan</h2>
+        <p class="section-subtitle fade-in">Dapatkan bantuan dari tim dukungan kami yang berdedikasi</p>
+        
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info fade-in">
+                <div class="contact-item">
+                    <i class="bi bi-envelope"></i>
+                    <div>
+                        <h4>Email Support</h4>
+                        <p>support@minecraftstore.com</p>
+                        <p>sales@minecraftstore.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="bi bi-instagram"></i>
+                    <div>
+                        <h4>Instagram</h4>
+                        <p>Ikutin media sosial kami untuk info seputar toko</p>
+                        <p>@username</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="bi bi-clock"></i>
+                    <div>
+                        <h4>Support Hours</h4>
+                        <p>Dukungan pelanggan 24/7</p>
+                        <p>Respons instan untuk masalah mendesak</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="bi bi-geo-alt"></i>
+                    <div>
+                        <h4>Based In</h4>
+                        <p>Jepara, Jawa Tengah, Indonesia</p>
+                        <p>Melayani pelanggan di seluruh dunia</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form fade-in">
+                <h3>Kirimi kami pesan</h3>
+                <form id="contact-form" action="https://formspree.io/f/GantiDenganMilikmu" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="account-support">Account Support</option>
+                            <option value="technical-issue">Technical Issue</option>
+                            <option value="billing">Billing Question</option>
+                            <option value="product-info">Product Information</option>
+                            <option value="partnership">Partnership Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Jelaskan masalah atau pertanyaan Anda secara rinci..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq-container">
+            <div class="faq-section fade-in">
+                <h3 class="section-subtitle">Pertanyaan yang sering diajukan</h3>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h4>Berapa Lama Pengiriman?</h4>
+                        <p>Sebagian besar produk digital dikirimkan secara instan setelah konfirmasi pembayaran. Layanan jasa mungkin memerlukan waktu lebih tergantung project yang dikerjakan.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Apakah akun Anda sah?</h4>
+                        <p>Ya, semua akun diperoleh secara hukum dan dilengkapi dengan transfer kepemilikan penuh. Kami memberikan garansi dan dukungan untuk semua pembelian.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Metode pembayaran apa yang Anda terima?</h4>
+                        <p>Kami menerima PayPal, kartu kredit, dan berbagai metode pembayaran digital Indonesia. Semua transaksi aman dan dienkripsi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<style>
+    .contact-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        background: var(--color-surface);
+        padding: 1.5rem;
+        border-radius: var(--border-radius);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .contact-item i {
+        font-size: 1.5rem;
+        color: var(--color-primary);
+        margin-top: 0.25rem;
+    }
+
+    .contact-item h4 {
+        color: var(--color-text);
+        margin-bottom: 0.5rem;
+    }
+
+    .contact-item p {
+        color: var(--color-text-secondary);
+        margin-bottom: 0.25rem;
+        font-size: 0.9rem;
+    }
+
+    .contact-form h3 {
+        color: var(--color-primary);
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .form-group select {
+        width: 100%;
+        padding: 0.75rem;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: var(--border-radius);
+        color: var(--color-text);
+        font-family: var(--font-family);
+        font-size: 1rem;
+    }
+    
+    .form-group select option {
+        background: var(--color-surface);
+        color: var(--color-text);
+        padding: 0.5rem;
+    }
+
+    .form-group select:focus {
+        outline: none;
+        border-color: var(--color-primary);
+    }
+
+    .faq-section {
+        background: var(--color-surface);
+        padding: 3rem 2rem;
+        border-radius: var(--border-radius);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .faq-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .faq-item {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 1.5rem;
+        border-radius: var(--border-radius);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .faq-item h4 {
+        color: var(--color-primary);
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .faq-item p {
+        color: var(--color-text-secondary);
+        line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+        .contact-container {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

@@ -1,0 +1,168 @@
+<div class="home-content">
+    <section id="home" class="section">
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">Minecraft Store</h1>
+                <p class="hero-description fade-in">
+                    Sumber terpercaya untuk akun Minecraft premium, skin custom, dan resource game.
+                    Dapatkan pengiriman instan, dukungan 24/7, dan transaksi 100% aman untuk semua kebutuhan Minecraft Anda.
+                </p>
+                <div class="cta-buttons fade-in">
+                    <a href="#products" class="btn btn-primary">Beli Sekarang</a>
+                    <a href="#services" class="btn btn-secondary">Layanan Kami</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <img src="img/profile-placeholder.webp" alt="">
+            </div>
+        </div>
+
+        <!-- Featured Products -->
+        <div class="featured-section fade-in">
+            <h2 class="section-title">Produk Unggulan</h2>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <div class="featured-icon">
+                        <i class="bi bi-person-badge"></i>
+                    </div>
+                    <h3>Akun Premium</h3>
+                    <p>Dapatkan akses penuh akun Minecraft dengan transfer kepemilikan aman</p>
+                    <a href="#products" class="btn btn-primary">Lihat Akun</a>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-icon">
+                        <i class="bi bi-palette"></i>
+                    </div>
+                    <h3>Skin Custom</h3>
+                    <p>Skin karakter unik yang didesain oleh artis Minecraft profesional</p>
+                    <a href="#products" class="btn btn-primary">Jelajahi Skin</a>
+                </div>
+                <div class="featured-item">
+                    <div class="featured-icon">
+                        <i class="bi bi-map"></i>
+                    </div>
+                    <h3>Resource Game</h3>
+                    <p>Map, texture pack, dan mod untuk meningkatkan pengalaman bermain</p>
+                    <a href="#products" class="btn btn-primary">Jelajahi Resource</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why Choose Us -->
+        <div class="benefits-container">
+           <div class="benefits-section fade-in">
+               <h2 class="section-title">Mengapa Memilih Kami?</h2>
+               <div class="benefits-grid">
+                   <div class="benefit-item">
+                       <i class="bi bi-shield-check"></i>
+                       <h4>100% Aman</h4>
+                       <p>Semua produk legal dan terjamin keamanannya</p>
+                   </div>
+                   <div class="benefit-item">
+                       <i class="bi bi-lightning-charge"></i>
+                       <h4>Pengiriman Instan</h4>
+                       <p>Produk langsung dikirim setelah pembayaran</p>
+                   </div>
+                   <div class="benefit-item">
+                       <i class="bi bi-headset"></i>
+                       <h4>Dukungan 24/7</h4>
+                       <p>Tim kami siap membantu kapan saja</p>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </section>
+</div>
+
+<style>
+    .minecraft-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+        border-radius: 50%;
+    }
+
+    .featured-section {
+        margin: 6rem 0;
+    }
+
+    .featured-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .featured-item {
+        background: var(--color-surface);
+        padding: 2rem;
+        border-radius: var(--border-radius);
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition: var(--transition);
+    }
+
+    .featured-item:hover {
+        transform: translateY(-5px);
+        border-color: var(--color-primary);
+    }
+
+    .featured-icon {
+        font-size: 3rem;
+        color: var(--color-primary);
+        margin-bottom: 1rem;
+    }
+
+    .featured-item h3 {
+        color: var(--color-text);
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .featured-item p {
+        color: var(--color-text-secondary);
+        margin-bottom: 1.5rem;
+    }
+
+    .benefits-section {
+        background: var(--color-surface);
+        padding: 4rem 2rem;
+        border-radius: var(--border-radius);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+
+    .benefit-item {
+        text-align: center;
+    }
+
+    .benefit-item i {
+        font-size: 2.5rem;
+        color: var(--color-primary);
+        margin-bottom: 1rem;
+    }
+
+    .benefit-item h4 {
+        color: var(--color-text);
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .benefit-item p {
+        color: var(--color-text-secondary);
+        font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+        .featured-section {
+            margin: 6rem 0 0 0;
+        }
+    }
+</style>
