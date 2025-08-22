@@ -5,8 +5,6 @@
 
 ## 📋 Tentang Website
 
-## 📋 Tentang Website
-
 Website Minecraft Store adalah template website e-commerce modern yang dirancang khusus untuk toko digital yang menjual produk dan layanan Minecraft. Website ini menggunakan pendekatan Single Page Application (SPA) dengan navigasi yang smooth dan responsive design.
 
 ## 🎯 Fitur Website
