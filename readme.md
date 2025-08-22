@@ -140,4 +140,3 @@ a.storedasboard/
 
 ---
 
-*Template dibuat dengan ❤️ untuk komunitas Minecraft dan developer web*
