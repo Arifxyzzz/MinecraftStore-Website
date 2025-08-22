@@ -109,7 +109,7 @@ a.storedasboard/
 
 ## 📞 Demo & Support
 
-**Live Demo:** [https://your-demo-link-here.com]
+**Live Demo:** [https://minecraftstore.netlify.app/]
 
 **Support:** rifganz7@gmail.com
 
