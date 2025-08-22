@@ -120,7 +120,7 @@ Template website ini tersedia untuk digunakan secara bebas. Silakan modifikasi s
 ---
 
 ``
-MIT License
+`MIT License`
 
 Copyright (c) 2025 Muhamad Rifan Khakim
 
